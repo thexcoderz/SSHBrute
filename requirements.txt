@@ -1,0 +1,2 @@
+redssh==2.3.3
+colorama==0.4.4
