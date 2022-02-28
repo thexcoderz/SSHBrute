@@ -2,7 +2,7 @@
 <img title="SSHBrute" src="https://raw.githubusercontent.com/thexcoderz/SSHBrute/main/img-2.png" alt="SSHBrute"/>
 </p>
 
-## SSHBrute
+# SSHBrute
 
 A fast and lightweight SSH (secured shell) brute force tool made using Python. Uses threading with custom time delay to increase the speed to its peak. Maximum speed 100 attempts in 12 seconds.
 ***
