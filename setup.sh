@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 echo "[+] This Tool was made by @thexcoderz"
 echo "[+] Installing Python3"
 sudo apt install python3 python3-pip
