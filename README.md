@@ -25,21 +25,21 @@ Now We are ready to use the tool !
 ## Usage
 For performing the attack you will need a wordlist containing the passwords. The tool comes with a default wordlist containing 500 common password. You can use your own wordlist also.
 
-To start attack on a ssh service running on <Server> on port <Port> for user <User> :
-```bash
+To start attack on a ssh service :
+```
 $ python3 sshbrute.py --hostname <Server> --port <Port> --user <User>
 # OR
 $ python3 sshbrute.py -ip <Server> -p <Port> -u <User>
 ```
 You can specify your own wordlist with --passlist OR -pl argument. Example:
-```bash
+```
 $ python3 sshbrute.py --hostname <Server> --port <Port> --user <User> --passlist <Path_To_WordList>
 # OR
 $ python3 sshbrute.py -ip <Server> -p <Port> -u <User> -pl <Path_To_WordList>
 ```
 ### Time Delay
 The default delay between attempts is 0.5s. You can change the time delay between the attempts via the --delay OR -d argument. Warning - Don't set the delay to 0. Example:
-```bash
+```
 $ python3 sshbrute.py --hostname <Server> --port <Port> --user <User> --delay 0.3
 # OR
 $ python3 sshbrute.py -ip <Server> -p <Port> -u <User> -d 0.3
@@ -47,7 +47,7 @@ $ python3 sshbrute.py -ip <Server> -p <Port> -u <User> -d 0.3
 ***
 ## Help
 You can see all the available options with the following command:
-```bash
+```
 $ python3 sshbrute.py -h
 
 usage: ss.py [-h] [--hostname HOSTNAME] [--port PORT] [--user USER] [--passlist PASSLIST] [--delay DELAY]
